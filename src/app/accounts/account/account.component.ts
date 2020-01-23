@@ -3,8 +3,8 @@ import { AngularFirestore } from '@angular/fire/firestore';
 
 import { AccountService } from '../account.service';
 import { Account } from '../../shared/account';
-import { TransactionService } from 'app/transactions/transaction.service';
-import { AuthService } from 'app/shared/auth.service';
+import { TransactionService } from '../../../app/transactions/transaction.service';
+import { AuthService } from '../../../app/shared/auth.service';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 
 @Component({

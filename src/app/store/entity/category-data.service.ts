@@ -1,11 +1,11 @@
 import { Injectable } from '@angular/core';
 import { DefaultDataService, Logger, HttpUrlGenerator } from '@ngrx/data';
-import { Category, CategoryId } from 'app/shared/category';
+import { Category, CategoryId } from '../../../app/shared/category';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { HttpClient } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { UserService } from 'app/shared/user.service';
+import { UserService } from '../../../app/shared/user.service';
 import { Update } from '@ngrx/entity';
 
 

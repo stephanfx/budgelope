@@ -7,7 +7,7 @@ import * as moment from 'moment';
 import { AccountService } from '../../accounts/account.service';
 import { Account } from '../../shared/account';
 import { takeUntil, map } from 'rxjs/operators';
-import { UserService } from 'app/shared/user.service';
+import { UserService } from '../../../app/shared/user.service';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 
 @Component({

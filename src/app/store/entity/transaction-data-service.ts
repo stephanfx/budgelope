@@ -8,9 +8,9 @@ import {
 
 import { Observable, of } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { ITransactionID, TransactionTypes } from 'app/shared/transaction';
+import { ITransactionID, TransactionTypes } from '../../../app/shared/transaction';
 import { AngularFirestore } from '@angular/fire/firestore';
-import { UserService } from 'app/shared/user.service';
+import { UserService } from '../../../app/shared/user.service';
 
 @Injectable()
 export class TransactionDataService extends DefaultDataService<ITransactionID> {

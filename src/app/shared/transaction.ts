@@ -1,6 +1,6 @@
 import { Category } from './category';
 import { Account } from './account';
-import { IImportedTransaction } from 'app/transactions/import/importedTransaction';
+import { IImportedTransaction } from '../../app/transactions/import/importedTransaction';
 
 export interface ITransaction {
   account: { accountId: string; accountName: string };

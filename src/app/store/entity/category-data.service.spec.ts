@@ -5,7 +5,7 @@ import { of } from 'rxjs';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { HttpClient } from '@angular/common/http';
 import { HttpUrlGenerator, Logger } from '@ngrx/data';
-import { UserService } from 'app/shared/user.service';
+import { UserService } from '../../../app/shared/user.service';
 
 describe('CategoryDataService', () => {
   let afsMock;

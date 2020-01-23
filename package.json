@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
+    "postinstall": "ngc -p ./angular-metadata.tsconfig.json",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
@@ -47,7 +48,13 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.802.0",
+    "@angular/bazel": "^8.2.0",
     "@angular/compiler-cli": "^8.2.0",
+    "@bazel/bazel": "^0.28.1",
+    "@bazel/ibazel": "^0.10.2",
+    "@bazel/karma": "0.34.0",
+    "@bazel/protractor": "0.34.0",
+    "@bazel/typescript": "0.34.0",
     "@types/jasmine": "2.8.2",
     "@types/node": "~8.5.1",
     "codelyzer": "^5.0.1",

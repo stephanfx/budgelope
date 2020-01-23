@@ -10,11 +10,11 @@ import { TransactionService, IFilter } from './transaction.service';
 import { BudgetService } from '../budgets/budget.service';
 import { UserService } from '../shared/user.service';
 import { BehaviorSubject, Subject, Observable } from 'rxjs';
-import { IAccount } from 'app/shared/account';
+import { IAccount } from '../../app/shared/account';
 import { ImportComponent } from './import/import.component';
-import { AuthService } from 'app/shared/auth.service';
+import { AuthService } from '../../app/shared/auth.service';
 import { takeUntil, take } from 'rxjs/operators';
-import { AccountComponent } from 'app/accounts/account/account.component';
+import { AccountComponent } from '../../app/accounts/account/account.component';
 import { TransactionComponent } from './transaction/transaction.component';
 
 @Component({

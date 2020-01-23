@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 import { Budget } from '../../shared/budget';
 import { BudgetService } from '../budget.service';
 import { AngularFirestore } from '@angular/fire/firestore';
-import { AuthService } from 'app/shared/auth.service';
+import { AuthService } from '../../../app/shared/auth.service';
 
 @Component({
   selector: 'app-budget-form',

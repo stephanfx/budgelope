@@ -9,8 +9,8 @@ import { Budget } from '../../shared/budget';
 import { BudgetService } from '../budget.service';
 import { UserService } from '../../shared/user.service';
 import { CategoryService } from '../../categories/category.service';
-import { AuthService } from 'app/shared/auth.service';
-import { TransactionTypes } from 'app/shared/transaction';
+import { AuthService } from '../../../app/shared/auth.service';
+import { TransactionTypes } from '../../../app/shared/transaction';
 
 @Component({
   selector: 'app-budgetview',

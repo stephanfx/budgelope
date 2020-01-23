@@ -2,9 +2,9 @@ import { Injectable } from '@angular/core';
 import { DefaultDataService, HttpUrlGenerator, Logger } from '@ngrx/data';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { HttpClient } from '@angular/common/http';
-import { Account } from 'app/shared/account';
+import { Account } from '../../../app/shared/account';
 import { Observable, of } from 'rxjs';
-import { UserService } from 'app/shared/user.service';
+import { UserService } from '../../../app/shared/user.service';
 import { map } from 'rxjs/operators';
 import { Update } from '@ngrx/entity';
 
